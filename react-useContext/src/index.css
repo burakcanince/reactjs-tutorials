@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.dark {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: #000;
+}

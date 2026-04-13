@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  padding: 20px;
+}
+
+@theme inline {
+  --radius: var(--radius);
+  --color-destructive: var(--destructive);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-input: var(--input);
+}
+
+:root {
+  --radius: 0.625rem;
+  --destructive: oklch(0.577 0.245 27.325);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --input: oklch(0.922 0 0)
+}
